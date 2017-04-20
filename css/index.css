@@ -1,0 +1,46 @@
+body {
+	max-width: 1400px;
+	margin: 0 auto;
+	background-attachment: fixed;
+	background-color: #000;
+	padding: 30px;
+}
+html{
+	color: #e3f25e;
+}
+#bar{
+	float: right;
+	margin: 0 0 1em 1em ;
+	
+}
+nav  li {
+	
+	display: inline-block;
+	margin: 20px ;
+}
+p{
+	max-width: 50%;
+}
+#bar img{
+	width: 550px;
+	height:350px;
+	border: solid;
+	border-color:#ffffff;
+}
+
+#myCarousel{
+	min-height: 300px;
+    width: 80%;
+	margin: 0 auto;
+}
+
+.carousel-inner img{
+    max-height: 450px;
+    width: 100%;
+}
+
+
+
+
+
+

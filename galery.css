@@ -1,0 +1,41 @@
+
+body{
+    background-color: #000;
+}
+html{
+	color: #e3f25e;
+}
+
+
+#photos {
+	display:flex;
+	Flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+
+
+
+#photos img{
+    width: 500px;
+    height: 350px;
+    margin: 2px ;
+    border: solid;
+	border-color:#ffe949;
+}
+
+#myCarousel{
+	min-height: 300px;
+    width: 80%;
+	margin: 0 auto;
+}
+
+.carousel-inner img{
+    max-height: 450px;
+    width: 100%;
+}
+nav  li {
+	
+	display: inline-block;
+	margin: 20px ;
+}
