@@ -26,7 +26,7 @@ html{
 
 #myCarousel{
 	min-height: 300px;
-    width: 80%;
+    width: 100%;
 	margin: 0 auto;
 }
 
@@ -38,4 +38,29 @@ nav  li {
 	
 	display: inline-block;
 	margin: 20px ;
+}
+
+
+
+
+#myCarousel{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.carousel-inner img {
+	margin: 0 auto;
+	max-height: 450px;
+	width: 100%;
+}
+@media screen and (max-width: 965px){
+	#photos img{
+		width: 310px;
+		height: 280px;
+	}
+}
+@media screen and (max-width: 965px){
+	footer{
+		width: 100%;
+	}
 }

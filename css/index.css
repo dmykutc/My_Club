@@ -1,16 +1,19 @@
+
+
 body {
+	color: #e3f25e;
 	max-width: 1400px;
 	margin: 0 auto;
 	background-attachment: fixed;
 	background-color: #000;
-	padding: 30px;
+	padding: 20px;
 }
-html{
-	color: #e3f25e;
-}
-#bar{
+
+#bar img {
 	float: right;
 	margin: 0 0 1em 1em ;
+	width: 550px;
+	height:350px;
 	
 }
 nav  li {
@@ -21,23 +24,102 @@ nav  li {
 p{
 	max-width: 50%;
 }
-#bar img{
-	width: 550px;
-	height:350px;
-	border: solid;
-	border-color:#ffffff;
-}
+
 
 #myCarousel{
-	min-height: 300px;
-    width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
-.carousel-inner img{
-    max-height: 450px;
-    width: 100%;
+.carousel-inner img {
+	margin: 0 auto;
+	min-height: 450px;
+	max-height:450px;
+	width: 100%;
 }
+
+
+iframe{
+	float: right;
+}
+
+
+
+@media screen and (max-width: 965px){
+	p{
+		max-width: 100%;
+	}
+	.navigation{
+		width: 100%;
+		display: flex;
+		Flex-direction:column;
+	}
+}
+
+@media screen and (max-width: 965px){
+iframe {
+		width: 100%;
+	}
+.form input{
+		width: 100%;
+	}
+}
+
+footer{
+	
+	color: #000000;
+	background-color: #9a9fa8;
+	margin-top: 30px;
+}
+
+
+#icon{
+	display: flex;
+	Justify-content:center;
+	Align-self:center;
+	
+}
+
+#icon img {
+	margin: 5px;
+	width: 40px;
+	height: 40px;
+	margin-top: 30px;
+}
+
+main{
+	font-family: Pompadur 16px;
+}
+#header h1  {
+	text-align: center;
+	font-family: Pompadur, 'Comic Sans MS', cursive;
+	font-size: 50px;
+}
+
+@media screen and (max-width: 765px){
+#bar img {
+		
+		float: none;
+		width: 280px;
+		height: 264px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 530px){
+	.carousel-inner {
+		
+		width: 100%;
+		height: 300px;
+	}
+}
+
+
+
+
+
+
+
 
 
 

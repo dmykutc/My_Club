@@ -1,0 +1,60 @@
+.form {
+	margin-top: 5em;
+	
+	width: 350px;
+	height: 400px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea[placeholder="Message"] {
+	width: 250px;
+	height: 40px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	border-radius: 6px;
+	color: #2c5fb2;
+}
+
+.button input {
+	padding: 13px 30px;
+	margin: 5px 0 20px 0;
+	font-size: 15px;
+	color: #fff;
+	background-color: #2c5fb2;
+	border-radius: 15px;
+}
+
+.button input:hover {
+	transition: all 0.5s;
+	background: #8c2837;
+	color: #111212;
+	font-size: 18px;
+}
+
+
+input:hover,
+input:focus{
+	-moz-box-shadow:0 0 8px lightblue;
+	-webkit-box-shadow:0 0 8px lightblue;
+	box-shadow:0 0 8px lightblue;
+}
+
+
+textarea:hover,
+textarea:focus{
+	-moz-box-shadow:0 0 8px lightblue;
+	-webkit-box-shadow:0 0 8px lightblue;
+	box-shadow:0 0 8px lightblue;
+}
+
+@media screen and (max-width: 965px){
+	.form{
+		display: flex;
+		Justify-content:center;
+		width: 100%;
+	}
+}
