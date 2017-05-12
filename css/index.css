@@ -27,7 +27,7 @@ p{
 
 
 #myCarousel{
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -115,9 +115,11 @@ main{
 		height: 300px;
 	}
 }
-
-
-
+@media screen and (max-width: 530px){
+	#myCarousel{
+		margin-bottom: 30px;
+	}
+}
 
 
 
