@@ -59,8 +59,17 @@ nav  li {
 		height: 280px;
 	}
 }
-@media screen and (max-width: 965px){
-	footer{
+@media screen and (max-width: 530px){
+	.carousel-inner {
+		
 		width: 100%;
+		height: 250px;
+	}
+}
+@media screen and (max-width: 530px){
+	#myCarousel{
+		margin-bottom: 30px;
+		width: 100%;
+		height: 250px;
 	}
 }
